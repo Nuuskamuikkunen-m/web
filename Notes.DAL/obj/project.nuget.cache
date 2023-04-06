@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z4ATw9MOiwGGwOLT1A7kUjcJsRkeQB31j3ENBMsz0h8eQuHQBCtjjVWHkPDBfNuYUm/5gCxuQtLLgtCGsSQqLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Notes.BLLIntefaces\Notes.BLLIntefaces.csproj" />
+    <ProjectReference Include="..\Notes.BLL\Notes.BLL.csproj" />
+    <ProjectReference Include="..\Notes.DALInterfaces\Notes.DALInterfaces.csproj" />
+    <ProjectReference Include="..\Notes.DAL\Notes.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

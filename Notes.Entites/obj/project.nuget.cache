@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CqZrCpckYmDIDH5a8M02PrT3H9l6FSgz9YV5562eUVjcV0Et2xZJVhNRxYYgFIuZ+0tNE28xnoxFliNp69gieA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
