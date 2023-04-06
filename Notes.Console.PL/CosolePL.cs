@@ -12,7 +12,7 @@ namespace Notes.Console.PL
         static void Main(string[] args)
         {
             var bll = DependencyResolver.Instance.NotesLogic;
-            //предоложим я тут наделала дел
+            
         }
     }
 }
