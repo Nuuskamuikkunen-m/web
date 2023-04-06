@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JefG9YP9UW0OPSi7soPHpCUOcnQEmPJcdEFj0Dr1wLE2zVd8RNYnvKRATfGRY7FuHrXJlRcDB4GMCPw5zOnIeQ==",
+  "dgSpecHash": "tfoMQ/4ObXAQiTQvm5x3nCJNtzcVjzYH3cI3KGVwSfmT5Sei/MGkbyvZN3oC9/r4r4ln6AP5w/rV8qfP/eY1bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Console.PL\\Notes.Console.PL.csproj",
+  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Console.PL\\Notes.Console.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

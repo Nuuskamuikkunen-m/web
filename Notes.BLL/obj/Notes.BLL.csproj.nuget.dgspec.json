@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLL\\Notes.BLL.csproj": {}
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLL\\Notes.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
         "projectName": "Notes.BLLIntefaces",
-        "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+        "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
         "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\obj\\",
+        "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLL\\Notes.BLL.csproj": {
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLL\\Notes.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLL\\Notes.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLL\\Notes.BLL.csproj",
         "projectName": "Notes.BLL",
-        "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLL\\Notes.BLL.csproj",
+        "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLL\\Notes.BLL.csproj",
         "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,17 +87,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj"
               },
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
               },
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\Notes.DAL.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\Notes.DAL.csproj"
               },
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
         "projectName": "Notes.DALInterfaces",
-        "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+        "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
         "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\obj\\",
+        "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj"
               }
             }
           }
@@ -190,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj": {
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\Notes.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\Notes.DAL.csproj",
         "projectName": "Notes.DAL",
-        "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\Notes.DAL.csproj",
+        "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\Notes.DAL.csproj",
         "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,11 +214,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
               },
-              "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
-                "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj"
+              "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj"
               }
             }
           }
@@ -252,14 +252,14 @@
         }
       }
     },
-    "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
+    "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj",
         "projectName": "Notes.Entities",
-        "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj",
+        "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj",
         "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\obj\\",
+        "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",

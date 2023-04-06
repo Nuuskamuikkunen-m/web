@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RNNFlCJhna7Cg/la11wh6v6l4o9FzYjiN2xaMiAqRKP0XusrXP3yL54aXtzG7pKAYtpCjk7U4lNhHVnx+bQaMg==",
+  "dgSpecHash": "stKqiCUEDBHp6wd1juGek+UpihBHvOpuMC5RxQ6hQOKEuyB2iGXm1GmaymJ+abo+1YwEqIG6A/nLxFL7psaEWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

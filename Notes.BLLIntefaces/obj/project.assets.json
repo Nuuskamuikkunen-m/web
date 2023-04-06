@@ -78,11 +78,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+      "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
       "projectName": "Notes.BLLIntefaces",
-      "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+      "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
       "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.BLLIntefaces\\obj\\",
+      "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,8 +99,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj": {
-              "projectPath": "C:\\Users\\Nuuskamuikkunen\\source\\repos\\TestWebApplication2\\Notes.Entites\\Notes.Entities.csproj"
+            "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+              "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj"
             }
           }
         }
