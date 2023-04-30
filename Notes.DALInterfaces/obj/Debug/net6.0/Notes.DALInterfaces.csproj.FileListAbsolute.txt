@@ -1,0 +1,15 @@
+C:\Users\print\source\repos\web\Notes.DALInterfaces\bin\Debug\net6.0\Notes.DALInterfaces.deps.json
+C:\Users\print\source\repos\web\Notes.DALInterfaces\bin\Debug\net6.0\Notes.DALInterfaces.dll
+C:\Users\print\source\repos\web\Notes.DALInterfaces\bin\Debug\net6.0\Notes.DALInterfaces.pdb
+C:\Users\print\source\repos\web\Notes.DALInterfaces\bin\Debug\net6.0\Notes.Entities.dll
+C:\Users\print\source\repos\web\Notes.DALInterfaces\bin\Debug\net6.0\Notes.Entities.pdb
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.csproj.AssemblyReference.cache
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.AssemblyInfoInputs.cache
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.AssemblyInfo.cs
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.csproj.CopyComplete
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.dll
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\refint\Notes.DALInterfaces.dll
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\Notes.DALInterfaces.pdb
+C:\Users\print\source\repos\web\Notes.DALInterfaces\obj\Debug\net6.0\ref\Notes.DALInterfaces.dll

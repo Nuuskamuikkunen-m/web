@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LUsmatueJFH8EKPZZEij7DuzoyVeYogaZw35jM6vkhNZib2hNbo9O9A5uWZf4Y1NETALorw+zieD8hv7+yrEhg==",
+  "dgSpecHash": "a3UutR8Q7gUEIPllDcNiouBIGmDEGQyPQNFTppJAeSpgPE7tO0vBc969McXCBGK6JlxDARTPo7h4dh/r3kQvVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Entites\\Notes.Entities.csproj",
+  "projectFilePath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\print\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

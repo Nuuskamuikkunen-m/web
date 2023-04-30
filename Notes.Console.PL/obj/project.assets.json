@@ -942,19 +942,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\": {}
+    "C:\\Users\\print\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Console.PL\\Notes.Console.PL.csproj",
-      "projectName": "Notes.Console.PL",
-      "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Console.PL\\Notes.Console.PL.csproj",
-      "packagesPath": "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Console.PL\\obj\\",
+      "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.Console.PL\\Notes.ConsolePL.csproj",
+      "projectName": "Notes.ConsolePL",
+      "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Console.PL\\Notes.ConsolePL.csproj",
+      "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Console.PL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nuuskamuikkunen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -968,8 +968,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj": {
-              "projectPath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj"
+            "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj": {
+              "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj"
             }
           }
         }
@@ -999,7 +999,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

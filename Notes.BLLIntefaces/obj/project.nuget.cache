@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g+HxicioPuvqjsqfSaSr0WP8Bz3U4zDNzwvPVKkT/CLqUDgDWJ8ZRGFv6MO32/N2Y/lmeJ23KFibCr8xsJ7VUg==",
+  "dgSpecHash": "Cb4VDubs03V7Q2wg1Snlk+2wnHfqsUptiZEs1q2VQM+NcdhUMgFlyWvyhSRJfoLgsv4oYKZdrkWC4gQiAfEmhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+  "projectFilePath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\print\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -9,11 +9,22 @@ namespace Notes.DALInterfaces
 {
     public interface INotesDAO
     {
-        void AddNote(Note note);
-        void RemoveNote(int id);
-        void EditNote(int id, string NewText);
+        //Task<bool> AddNote(Note note);
+        Task<bool> AddNote(int idUser, string notename, string notetext, DateTime creationDate);
+        Task<bool> RemoveNote(int id);
+        Task<bool> EditNote(int id, string NewText);
+        Task<Note> GetNote(int id);
+        //IEnumerable<Note> GetNotes(bool orderById);
+        //IEnumerable<Note> GetUsersNotes(int idUser);
+        Task<List<Note>> GetUsersNotes(int idUser);
+        Task<bool> AddUser(string name, DateTime reg, string login,  string password, string phoneNumber);
+        Task<bool> CheckAccount(string login, string password);
+        Task<bool> EditAccount(Account account);
+        Task<bool> EditUser(User user);
+        Task<Account> GetAccount(string login);
 
-        Note GetNote(int id);
-        IEnumerable<Note> GetNotes(bool orderById);
+        Task<Account> GetAccount(int id);
+        Task<User> GetUser(int id);
+
     }
 }

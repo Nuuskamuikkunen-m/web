@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "stKqiCUEDBHp6wd1juGek+UpihBHvOpuMC5RxQ6hQOKEuyB2iGXm1GmaymJ+abo+1YwEqIG6A/nLxFL7psaEWQ==",
+  "dgSpecHash": "9VJJU1HWm/2P4auvdWCo2fDBuaBTXr4aApMq3ch02WbMKqLB1+i7chyHGAaFqk4A6/pGEeF7M/GqGZryprERng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nuuskamuikkunen\\Source\\Repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+  "projectFilePath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nuuskamuikkunen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\print\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

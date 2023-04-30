@@ -1,0 +1,15 @@
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\bin\Debug\net6.0\Notes.BLLIntefaces.deps.json
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\bin\Debug\net6.0\Notes.BLLIntefaces.dll
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\bin\Debug\net6.0\Notes.BLLIntefaces.pdb
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\bin\Debug\net6.0\Notes.Entities.dll
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\bin\Debug\net6.0\Notes.Entities.pdb
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.csproj.AssemblyReference.cache
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.AssemblyInfoInputs.cache
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.AssemblyInfo.cs
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.csproj.CoreCompileInputs.cache
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.csproj.CopyComplete
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.dll
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\refint\Notes.BLLIntefaces.dll
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\Notes.BLLIntefaces.pdb
+C:\Users\print\source\repos\web\Notes.BLLIntefaces\obj\Debug\net6.0\ref\Notes.BLLIntefaces.dll

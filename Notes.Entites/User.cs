@@ -10,23 +10,17 @@ namespace Notes.Common.Entities
 {
     public class User
     {
-        public User(int id, string name, DateTime regDate, DateTime dateOfBirth, string number)
+        public User(int id, string name, DateTime regDate, string number)
         {
             ID = id;
             Name = name;
             RegDate = regDate;
-            DateOfBirth = dateOfBirth;
             PhoneNumber = number;
         }
 
-        public int ID { get; private set; }
-
+        public int ID { get; }
         public string Name { get; private set; }
-
-        public DateTime RegDate { get; private set; }
-
-        public DateTime DateOfBirth { get; private set; }
-
+        public DateTime RegDate { get; }
         public string PhoneNumber { get; private set; }
 
         public void EditName(string name)
@@ -36,7 +30,18 @@ namespace Notes.Common.Entities
             Name = name;
         }
 
-        public override string ToString() =>
-             JsonConvert.SerializeObject(this);
+        //public override string ToString() =>
+        //     JsonConvert.SerializeObject(this);
+
+        public override string? ToString()
+        {
+            var res = new StringBuilder();
+
+            res.Append("Name: ").Append(Name).Append("\n")
+                .Append("PhoneNumber: ").Append(PhoneNumber).Append("\n")
+                .Append("RegDate: ").Append(RegDate);
+
+            return res.ToString();
+        }
     }
 }

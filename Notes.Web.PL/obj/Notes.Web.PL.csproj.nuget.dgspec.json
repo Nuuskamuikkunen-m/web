@@ -1,0 +1,476 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\print\\source\\repos\\web\\Notes.Web.PL\\Notes.Web.PL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+        "projectName": "Notes.BLLIntefaces",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj",
+        "projectName": "Notes.BLL",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+        "projectName": "Notes.DALInterfaces",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj",
+        "projectName": "Notes.DAL",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj",
+        "projectName": "Notes.Dependencies",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DALInterfaces\\Notes.DALInterfaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.DAL\\Notes.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj",
+        "projectName": "Notes.Entities",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\print\\source\\repos\\web\\Notes.Web.PL\\Notes.Web.PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\print\\source\\repos\\web\\Notes.Web.PL\\Notes.Web.PL.csproj",
+        "projectName": "Notes.Web.PL",
+        "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Web.PL\\Notes.Web.PL.csproj",
+        "packagesPath": "C:\\Users\\print\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Web.PL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\print\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLLIntefaces\\Notes.BLLIntefaces.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.BLL\\Notes.BLL.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Dependencies\\Notes.Dependencies.csproj"
+              },
+              "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj": {
+                "projectPath": "C:\\Users\\print\\source\\repos\\web\\Notes.Entites\\Notes.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
