@@ -322,8 +322,8 @@ namespace Notes.DAL.DAL
 
                 command.Parameters.AddWithValue("@NameUs", name);
                 command.Parameters.AddWithValue("@Login", login);
-                command.Parameters.AddWithValue("@Password", password);
-                command.Parameters.AddWithValue("@regdate", reg);
+                command.Parameters.AddWithValue("@Pass", password);
+                //command.Parameters.AddWithValue("@regdate", reg);
                 command.Parameters.AddWithValue("@PhoneNumber", Convert.ToDecimal(phoneNumber));
 
                 _connection.Open();

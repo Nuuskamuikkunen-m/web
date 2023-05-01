@@ -57,15 +57,16 @@ namespace Notes.Web.PL.Controllers
                 //!!!!!!!!!!!!!!!!!!
                 //!!!!!!!!!!1
                 await _notesLogic.EditNote(id, text);
-                return RedirectToAction("GetNote", "Home");
+                return RedirectToAction("GetUsersNote", "Home");
+                //return RedirectToAction("GetNote", "Note");
             }
             return View(noteModel);
         }
 
         public async Task<IActionResult> GetNote(int id)
         {
-            //var note = await _notesLogic.GetNote(id);
-            var note = await _notesLogic.GetNote(4);
+            var note = await _notesLogic.GetNote(id);
+            //var note = await _notesLogic.GetNote(4);
             var noteModel = UserNoteModel.NoteFromEntity(note);
             return View(noteModel);
         }

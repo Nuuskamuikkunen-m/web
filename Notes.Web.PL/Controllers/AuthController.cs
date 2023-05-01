@@ -33,7 +33,7 @@ namespace Notes.Web.PL.Controllers
                 {
                     await Authenticate(accountModel.Login);
 
-                    return RedirectToAction("GetUsersNote", "Home");
+                    return RedirectToAction("GetUserAccount", "Home");
                 }
                 ModelState.AddModelError("", "Incorrect login or password");
             }
@@ -56,7 +56,7 @@ namespace Notes.Web.PL.Controllers
                 var phoneNumber = model.PhoneNumber;
                 var login = model.Login;
                 var password = model.Password;
-                var reg = model.Reg;
+                var reg = DateTime.Now;
 
                 if (name != null && phoneNumber != null && login != null && password != null)
                 {
@@ -64,7 +64,7 @@ namespace Notes.Web.PL.Controllers
 
 
                     await Authenticate(model.Login);
-                    return RedirectToAction("GetUsersNote", "Home");
+                    return RedirectToAction("AddNote", "Note");
                 }
                 else
                     ModelState.AddModelError("", "Fill in all the fields");

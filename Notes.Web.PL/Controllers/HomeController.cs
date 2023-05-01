@@ -23,8 +23,8 @@ namespace Notes.Web.PL.Controllers
         }
         public async Task<IActionResult> GetUsersNote()
         {
-            //string login = User.Identity.Name;
-            var login = "myhardlogin";
+            string login = User.Identity.Name;
+            //var login = "myhardlogin";
             var user = await _notesLogic.GetAccount(login);
             var usersTask = await _notesLogic.GetUsersNotes(user.Id);
             if (usersTask.Count > 0)
@@ -38,9 +38,9 @@ namespace Notes.Web.PL.Controllers
 
         public async Task<IActionResult> GetUserAccount()
         {
-            //string login = User.Identity.Name;
+            string login = User.Identity.Name;
             //var login = "tihon2023";
-            var login = "myhardlogin";
+            //var login = "myhardlogin";
             var account = await _notesLogic.GetAccount(login);
             var user = await _notesLogic.GetUser(account.Id);
 
