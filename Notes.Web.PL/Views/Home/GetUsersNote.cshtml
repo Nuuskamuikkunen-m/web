@@ -6,7 +6,12 @@
 
 <h1>Мои заметочки</h1>
 
-
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+else
+{
 <table class="table">
     <thead>
         <tr>
@@ -54,13 +59,13 @@
             <td>
                     @Html.ActionLink("Edit", "EditNote", "Note",  new { id=item.ID }, null) |
                     @Html.ActionLink("Details", "GetNote", "Note", new { id=item.ID }, null) |
-                    @Html.ActionLink("Delete", "RemoveNote", "Note", new { id=item.ID }, null))
+                    @Html.ActionLink("Delete", "RemoveNote", "Note", new { id=item.ID }, null)
             </td>
         </tr>
 }
     </tbody>
 </table>
-
+}
 <p>
     <a asp-action="AddNote" asp-controller="Note">Добавить новую заметку</a>
 </p>

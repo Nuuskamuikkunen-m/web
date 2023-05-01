@@ -1,0 +1,54 @@
+name: dockercompose13822760114279309629
+services:
+  msdb:
+    container_name: lera-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: leraSuperdb1%
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      notes: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "8002"
+      protocol: tcp
+  notes.web.pl:
+    build:
+      context: C:\Users\print\source\repos\web
+      dockerfile: Notes.Web.PL/Dockerfile
+    depends_on:
+      msdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DB_HOST: msdb
+      DB_NAME: NotesDB
+      DB_SA_PASSWORD: leraSuperdb1%
+    image: noteswebpl
+    networks:
+      notes: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\print\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\print\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  notes:
+    name: dockercompose13822760114279309629_notes

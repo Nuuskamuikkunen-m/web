@@ -32,7 +32,7 @@ namespace Notes.Web.PL.Controllers
                 var userTaskSelected = usersTask.Select(UserNoteModel.NoteFromEntity).ToList();
                 return View(userTaskSelected);
             }
-            ViewBag.Message = "You don't have any notes yet";
+            ViewBag.Message = "Нет ни одной заметки!";
             return View();
         }
 

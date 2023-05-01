@@ -1,0 +1,29 @@
+version: '3.4'
+
+networks:    
+  notes:
+
+services:
+  msdb:
+    container_name: lera-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+     - 8002:1433
+    environment:
+     - ACCEPT_EULA=Y
+     - SA_PASSWORD=leraSuperdb1%
+    networks:
+      - notes
+  notes.web.pl:
+    image: ${DOCKER_REGISTRY-}noteswebpl
+    build:
+      context: .
+      dockerfile: Notes.Web.PL/Dockerfile
+    depends_on:
+      - msdb
+    environment:
+      - DB_HOST=msdb
+      - DB_NAME=NotesDB
+      - DB_SA_PASSWORD=leraSuperdb1%
+    networks:
+      - notes

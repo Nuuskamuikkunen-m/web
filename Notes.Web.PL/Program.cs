@@ -13,7 +13,12 @@ using Notes.BLLIntefaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string connectionString = builder.Configuration.GetConnectionString("NotesConnectStr");
+//string connectionString = builder.Configuration.GetConnectionString("NotesConnectStr");
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+var dbName = Environment.GetEnvironmentVariable("DB_NAME");
+var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};Connect Timeout=30;User ID=sa;Password={dbPassword}";
+
 builder.Services.AddSingleton(connectionString);
 builder.Services.AddScoped<INotesLogic, NotesLogic>();
 builder.Services.AddSingleton<INotesDAO>(provider => new NoteSQLDAO(connectionString));

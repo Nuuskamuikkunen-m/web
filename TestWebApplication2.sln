@@ -30,7 +30,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_sql_scripts", "DB_sql_sc
 		SQLQueryNotes_CreateTable.sql = SQLQueryNotes_CreateTable.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Web.PL", "Notes.Web.PL\Notes.Web.PL.csproj", "{0C46132A-FC40-422D-A6D9-5230F0B5EE2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Web.PL", "Notes.Web.PL\Notes.Web.PL.csproj", "{0C46132A-FC40-422D-A6D9-5230F0B5EE2E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CF7E9E81-FE0B-4BA4-9EB5-0D5BE3346C27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +72,10 @@ Global
 		{0C46132A-FC40-422D-A6D9-5230F0B5EE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C46132A-FC40-422D-A6D9-5230F0B5EE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C46132A-FC40-422D-A6D9-5230F0B5EE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7E9E81-FE0B-4BA4-9EB5-0D5BE3346C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7E9E81-FE0B-4BA4-9EB5-0D5BE3346C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7E9E81-FE0B-4BA4-9EB5-0D5BE3346C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7E9E81-FE0B-4BA4-9EB5-0D5BE3346C27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
